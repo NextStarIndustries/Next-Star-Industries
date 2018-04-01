@@ -1,0 +1,1 @@
+KSP-AVC Support - "This mod includes version checking using MiniAVC. If you opt-in, it will use the Internet to check whether there is a new version available. Data is only read from the Internet and no personal information is sent. For a more comprehensive version checking experience, please download the KSP-AVC Plugin."
