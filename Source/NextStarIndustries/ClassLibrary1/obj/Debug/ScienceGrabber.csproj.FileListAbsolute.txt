@@ -1,0 +1,34 @@
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Assembly-CSharp.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\UnityEngine.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\UnityEngine.UI.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\KSPTrackIR.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\KSPAssets.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Mono.Cecil.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Ionic.Zip.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\TDx.TDxInput.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\RedShellSDK.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\obj\Debug\ScienceGrabber.csprojResolveAssemblyReference.cache
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.pdb
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\obj\Debug\ScienceGrabber.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\obj\Debug\ScienceGrabber.pdb
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.dll.CodeAnalysisLog.xml
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\BDArmory Weapons Extention Mod Files\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.dll.lastcodeanalysissucceeded
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.pdb
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.dll.CodeAnalysisLog.xml
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\ScienceGrabber.dll.lastcodeanalysissucceeded
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Assembly-CSharp.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\UnityEngine.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\UnityEngine.UI.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\KSPTrackIR.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\KSPAssets.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Mono.Cecil.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\Ionic.Zip.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\TDx.TDxInput.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\bin\Debug\RedShellSDK.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\obj\Debug\ScienceGrabber.csprojResolveAssemblyReference.cache
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\obj\Debug\ScienceGrabber.dll
+C:\Users\Brandy\Desktop\All KSP Stuff\My KSP Mods\NextStarIndustriesModFiles\SourceCode Don't Install\NextStarIndustries\ClassLibrary1\obj\Debug\ScienceGrabber.pdb
