@@ -1,0 +1,5 @@
+1:Download and install KSP v1.3.1 or above.
+2:Download and install ModuleManager v3.0.4 or above.
+3:Download and install the mod InterstellarFuelSwitch v.2.10.4 or above.
+4:For NSI weapons to be fully functional download and install the mod BDAc v1.1 or above.
+5:Copy the NSI folder to your KSP/GameData folder.
