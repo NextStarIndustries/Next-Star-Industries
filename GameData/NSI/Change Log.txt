@@ -1,4 +1,5 @@
-v.0.0.4 -  Added mmpatch that adds a custom tech tree line adding a military technology line. Technologies are divided by the military branch and era they are designed for. Eras representing WW2, Cold War, Current, and Future.
+v.0.0.4 -  Updated all config files to use the new miliatry career tech tree line.
+	Added mmpatch that adds a custom tech tree line adding a military technology line. Technologies are divided by the military branch and era they are designed for. Eras representing WW2, Cold War, Current, and Future.
 	Updated all icons for Unity compression.
 	Added mmpatch to add new Kerbal Experiences: Miner(increased resource mining and ablility to repair some parts),Navy Captain, Orbital Fighter Pilot, Recon Pilot, Fighter Pilot, Bomber Pilot if USI is not installed, if USI is installed adds Geology effect to USI Miner. Miner, Fighter, Orbital Fighter, and Bomber Pilots, Navy Captain, and Tank Commander if BDAc is installed and USI is not installed. New Kerbal Experiences are not compatible with USI atm(future update).
 
@@ -26,11 +27,12 @@ v.0.0.1 -  Added custom Next Star Industries agent.
 
 Added Localization in русский, Français, Nederlands, 简体中文, 日本語, Deutsche, čeština, Portugues-brasileiro, lo italiano, and Español.
 TO DO LIST:
+	Fix Exocet booster decouple direction.(currently in the up direction)
 	Fix MK8x Laser animations. (not working)
 	Fix Typhoon no boost fx.
 	Fine tune all weapon config files.
 	Fix all flag decal rotations.
-	Add more resources to mine.
+	Add more resources to be mined.
 	Add TDS22 how to use file.
 	Find way to start TDS22 in hovering mode with code. Currently using a collision mesh to simulate hovering.
 	Add MQ9 to Military Division multi part craft.
