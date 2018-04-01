@@ -26,6 +26,7 @@ v.0.0.1 -  Added custom Next Star Industries agent.
 
 Added Localization in русский, Français, Nederlands, 简体中文, 日本語, Deutsche, čeština, Portugues-brasileiro, lo italiano, and Español.
 TO DO LIST:
+	Add more resources to mine.
 	Add TDS22 how to use.
 	Add MQ9 to Military Division multi part craft.
 	Add mmpatch to BDAc for NSI career mode compatibilty.
