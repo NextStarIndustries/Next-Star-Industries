@@ -1,22 +1,31 @@
-﻿using UnityEngine;
+using UnityEngine;
 using BDArmory.Misc;
-using BDArmory.Parts;
 using BDArmory.FX;
+using BDArmory.Modules;
 
-namespace NSIExplModule
+namespace NextStarIndustries
 {
-    class NSIExplosionModule : PartModule
+    internal class NSIExplosionModule : PartModule
     {
-        bool hasExploded = false;
-        MissileLauncher weapon;
+        private float blastRadius;
         private float blastPower;
         private float blastHeat;
+        private bool isMissile;
+        private float caliber;
+        private Part explosivePart;
+
+        [KSPField(isPersistant = false)]
+        public string explSpacePath = "BDArmory/Models/explosion/explosionLarge";
+
         [KSPField(isPersistant = false)]
         public string explAirPath = "BDArmory/Models/explosion/explosionLarge";
+
         [KSPField(isPersistant = false)]
         public string explGroundPath = "BDArmory/Models/explosion/explosionLarge";
+
         [KSPField(isPersistant = false)]
         public string explSoundPath = "NSI/MilitaryDivision/Sounds/MK84";
+
         [KSPAction("Explode")]
         public void DetonateAG(KSPActionParam param)
         {
@@ -24,59 +33,154 @@ namespace NSIExplModule
                 Explode();
             }
         }
-        public override void OnStart(StartState state)
+
+        bool hasExploded = false;
+
+        MissileLauncher weapon;
+
+        public override void OnStart(PartModule.StartState state)
         {
             part.OnJustAboutToBeDestroyed += new Callback(Explode);
         }
+
         public override void OnInitialize()
         {
             weapon = GetComponent<MissileLauncher>();
         }
-        void Explode()
+
+        public void Explode()
         {
-            blastPower = weapon.blastPower;
-            blastHeat = weapon.blastHeat;
             Color white = new Color(1, 1, 1, 1);
             Color whitef = new Color(1, 1, 1, 0);
+
             weapon.vessel.GetHeightFromTerrain();
+
+            blastRadius = weapon.blastRadius;
+            blastPower = weapon.blastPower;
+            blastHeat = weapon.blastHeat;
+
             Vector3 position = transform.position;
             Vector3 direction = transform.up;
             Quaternion rotation = Quaternion.LookRotation(VectorUtils.GetUpDirection(position));
-            if (!hasExploded && weapon.vessel.heightFromTerrain <= 69999 && weapon.vessel.heightFromTerrain >= 501 && weapon.TimeFired >= weapon.dropTime)
+
+            if (!hasExploded && weapon.TimeFired >= weapon.dropTime && weapon.vessel.heightFromTerrain >= 70000)
             {
                 hasExploded = true;
-                part.temperature = part.maxTemp + blastHeat;
-                GameObject source = new GameObject();
-                source.SetActive(true);
-                source.transform.position = position;
-                source.transform.rotation = rotation;
-                source.transform.up = direction;
-                source.transform.localRotation = rotation;
-                CameraFade flashEffect = source.AddComponent<CameraFade>();
-                source.GetComponent<CameraFade>().enabled = true;
-                flashEffect.SetScreenOverlayColor(white);
-                flashEffect.StartFade(whitef, 2.0f);
-                ExplosionFx.CreateExplosion(position, blastPower, explAirPath, explSoundPath, true, 0, null, default(Vector3));
+
+                if (part != null) part.temperature = part.maxTemp + 100;
+
+                GameObject lightBall = new GameObject();
+                lightBall.SetActive(true);
+                lightBall.transform.position = position;
+                lightBall.transform.rotation = rotation;
+                Detonator sdetonator = lightBall.AddComponent<Detonator>();
+                lightBall.GetComponent<Detonator>().enabled = true;
+                sdetonator.duration = 2f;
+                sdetonator.size = blastRadius;
+                sdetonator.detail = 10f;
+
+                Debug.Log("Space Explosion Activated");
             }
             else
             {
-                if (!hasExploded && weapon.TimeFired >= weapon.dropTime && weapon.vessel.heightFromTerrain <= 500)
+                if (!hasExploded && weapon.vessel.heightFromTerrain <= 69999 && weapon.vessel.heightFromTerrain >= 501 && weapon.TimeFired >= weapon.dropTime && weapon.blastRadius >= 1000)
                 {
                     hasExploded = true;
+
+                    if (part != null) part.temperature = part.maxTemp + 100;
+                    
                     GameObject source = new GameObject();
                     source.SetActive(true);
                     source.transform.position = position;
                     source.transform.rotation = rotation;
                     source.transform.up = direction;
-                    source.transform.localRotation = rotation;
+                    ///Detonator ndetonator = source.AddComponent<Detonator>();
+                    //source.GetComponent<Detonator>().enabled = true;
+                    //ndetonator.duration = 5.0f;
+                    //ndetonator.size = blastRadius;
+                    //ndetonator.detail = 10.0f;
                     CameraFade flashEffect = source.AddComponent<CameraFade>();
                     source.GetComponent<CameraFade>().enabled = true;
                     flashEffect.SetScreenOverlayColor(white);
                     flashEffect.StartFade(whitef, 2.0f);
-                    ExplosionFx.CreateExplosion(position, blastPower, explGroundPath, explSoundPath, true, 0, null, default(Vector3));
+                    ExplosionFx.CreateExplosion(position, blastPower, explAirPath, explSoundPath, isMissile = true, caliber = 0, explosivePart = null, direction = default(Vector3));
+
+                    Debug.Log("Air NExplosion Activated");
+                }
+                else
+                {
+                    if (!hasExploded && weapon.vessel.heightFromTerrain <= 69999 && weapon.vessel.heightFromTerrain >= 501 && weapon.TimeFired >= weapon.dropTime && weapon.blastRadius <= 1000)
+                    {
+                        hasExploded = true;
+
+                        if (part != null) part.temperature = part.maxTemp + 100;
+                        
+                        GameObject csource = new GameObject();
+                        csource.SetActive(true);
+                        csource.transform.position = position;
+                        csource.transform.rotation = rotation;
+                        csource.transform.up = direction;
+                        //Detonator cdetonator = csource.AddComponent<Detonator>();
+                        //csource.GetComponent<Detonator>().enabled = true;
+                        //cdetonator.duration = 3.0f;
+                        //cdetonator.size = blastRadius;
+                        //cdetonator.detail = 10.0f;
+                        ExplosionFx.CreateExplosion(position, blastPower, explAirPath, explSoundPath, isMissile = true, caliber = 0, explosivePart = null, direction = default(Vector3));
+
+                        Debug.Log("Air CExplosion Activated");
+                    }
+                    else
+                    {
+                        if (!hasExploded && weapon.TimeFired >= weapon.dropTime && weapon.vessel.heightFromTerrain <= 500 && weapon.blastRadius >= 1000)
+                        {
+                            hasExploded = true;
+
+                            if (part != null) part.temperature = part.maxTemp + 100;
+
+                            GameObject source = new GameObject();
+                            source.SetActive(true);
+                            source.transform.position = position;
+                            source.transform.rotation = rotation;
+                            source.transform.up = direction;
+                            //Detonator ndetonator = source.AddComponent<Detonator>();
+                            //source.GetComponent<Detonator>().enabled = true;
+                            //ndetonator.duration = 5.0f;
+                            //ndetonator.size = blastRadius;
+                            //ndetonator.detail = 10.0f;
+                            CameraFade flashEffect = source.AddComponent<CameraFade>();
+                            source.GetComponent<CameraFade>().enabled = true;
+                            flashEffect.SetScreenOverlayColor(white);
+                            flashEffect.StartFade(whitef, 2.0f);
+                            ExplosionFx.CreateExplosion(position, blastPower, explGroundPath, explSoundPath, isMissile = true, caliber = 0, explosivePart = null, direction = default(Vector3));
+
+                            Debug.Log("Ground NExplosion Activated");
+                        }
+                        else
+                        {
+                            if (!hasExploded && weapon.TimeFired >= weapon.dropTime && weapon.vessel.heightFromTerrain <= 500 && weapon.blastRadius <= 1000)
+                            {
+                                hasExploded = true;
+
+                                if (part != null) part.temperature = part.maxTemp + 100;
+                                
+                                GameObject csource = new GameObject();
+                                csource.SetActive(true);
+                                csource.transform.position = position;
+                                csource.transform.rotation = rotation;
+                                csource.transform.up = direction;
+                                //Detonator cdetonator = csource.AddComponent<Detonator>();
+                                //csource.GetComponent<Detonator>().enabled = true;
+                                //cdetonator.duration = 3.0f;
+                                //cdetonator.size = blastRadius;
+                                //cdetonator.detail = 10.0f;
+                                ExplosionFx.CreateExplosion(position, blastPower, explGroundPath, explSoundPath, isMissile = true, caliber = 0, explosivePart = null, direction = default(Vector3));
+
+                                Debug.Log("Ground CExplosion Activated");
+                            }
+                        }
+                    }
                 }
             }
         }
     }
 }
-
