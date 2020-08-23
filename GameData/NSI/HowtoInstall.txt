@@ -1,0 +1,1 @@
+Simply extract all contents to your main default KSP folder. Interstellar Fuel Switch and BDAc v1.3.4 and their dependencies are required.

@@ -1,0 +1,118 @@
+version 2.1.1 "More Booms Update" - Fixed tech tree icon locations making it more CTT compatible.
+	       New mmpatch to add BDAc parts to Career Mode. Removed Mission Editor stuff for the time being(BDAc Weapon Manager freaks out when the category is changed).
+	       More texture compression.
+	       Config file tweeks.
+	       Patched BDAc Weapon Manager to all Command Modules.
+version 2.1.0 "More Booms" - Merged BDAWE into the new mod Next Star Industries "NSI" and recompiled for KSP 1.10.1
+	       More code changes.
+	       Adjustments made to planetary resources.
+version 2.0.4 "Blasts from the Past" - "Interstellar Fuel Switch" and it's dependencies are now a required download for some parts to work.
+	       Removed extra explosionfx attached to the nukes until textures are fixed.
+	       Fixed many NRE errors. Upgraded some models, their textures, and added a flag decal to them, it changes to your currently seleted mission flag for more personalization options.
+	       Mereged old outdated weapon mod PEW weapons and updated the config files.
+	       Added bdacategories to most weapon config files.
+	       Repaired broken texture links.
+	       Changes to the file stucture, this may cause saved ships to break, remove all versions of BDAWE and its weapons from saved games before updating BDAWE.
+	       Upgraded explosion sound files.
+	       Upgraded all config files to use the latest BDAc v1.3.2 modules (explosionfx glitch when using bdamodule). To use BDAc's sub categories right click the BDAc icon, most stuff will be listed there. Full list of all NSI equipment is located in the advanced category view of KSP(arrows in the top left corner of KSP opens the advanced view).
+	       Added new Kerbal experiences Fighter Pilots, Bomber Pilots, Orbital Fighter Pilots, Miners, Tank Commanders, and lots more(compatible with USI).
+	       Rescaled images for Unity compression
+	       Added new resources to mine and create a more commercial type of game play.
+	       Added new contracts for mining fun.
+	       Added Exocet and Typhoon missiles(wip).
+	       Added a military tech tree line in career mode(wip) Currently not compatable with CTT icons need moved around.
+	       Introducing fully modeled craft(wip) the Trimaxian ship from "Flight of the Navigator".
+	       Began reworking of localization files.
+	       Began reworking entire file structure, currently chotic.
+	       Added user loading screens.
+	       Started texture compression to have a smaller memory impact from "NSI" textures only.
+
+version 2.0.3 - Recompiled for KSP v1.8.1 and BDAc v1.3.2
+
+version 2.0.2 - Added missing title to Agent.
+	        Recompiled for BDAc v1.1.0
+
+version 2.0.1 - Removed unused code from source folder.
+
+version 2.0.0 - Adjustments to config files to correct flight paths of GPS and Laser weapons.
+	       Fixed center of gravity for B-61s.
+	       Compiled for KSP 1.3.1 and BDAc v1.0.0
+
+version 1.9 - Started balancing for career mode.
+	     Fixed issue with particle effects displaying in the editor.
+	     Modified Honest John missiles. There are now 3 versions the original Honest John, the Improved Honest John, and a fictional longer range(100KM is the max distance ATM) GPS guided version of the original. Note: Don't use LR weapons beyond 95 km physics breaks and weapons do strange things, until BDAc 1.0 is released I HAVE NO INFO OR ETA ON BDAc's NEXT UPDATE I'm not a part of the BDA team.
+	     Added more soundfx for explosions.
+	     New models and textures for most weapons. Textures are in .png format. Models are much higher poly count now. Please inform me of any major performance impacts so I can adjust counts to work across as many machines as possible.
+	     New formulas for blastPower and blastHeat(explained in the config files) they should be pretty accurate to real life now. Weapons are configured to use the real RDX explosive numbers for NSI's conventional weapons.
+	     New MK8x series casings. They are now simulating pre-fragmented casings, which increases their blastRadius by almost double.
+	     Added Sonic Boombox it creates a sonic boom sound effect when going in/out of the sound barrier(WIP) Need on/off check in code. If traveling at constant speed the clip keeps playing(very annoying). Doesn't work if acceleration is to high, skips past it.
+	     Updating localisation dictionary for new weapons and descriptions.
+	     Added R23r, R27r, R33, R37(WIP),R60, and R73 AA missiles.(WIP config files may need adjusting)
+	     
+version 1.8.1 - Updated to BDArmory 0.3.0.0
+
+version 1.8 - Added MK81 GPS, Laser, and Unguided
+	    Added MK82 GPS, Laser, and Unguided
+	    Added MK83 GPS, Laser, and Unguided
+	    Added MK84 Laser, and Unguided
+	    Added B61 Unguided and Laser
+	    Added MK24 Nuclear Bomb
+	    Added Pumpkin Bomb
+	    Added new model for the W87.
+	    Added new model for the NSI LV-1 engine.
+	    Added Honest John Nuclear and Conventional variants
+	    Minor tweeks to config files of some weapons.
+	    Adjusted Camera over exposure effect to only appear when blastRadius is greater then 1000m and reduced the time of exposure to 2 seconds instead of 3.
+	    Added more explosionFX for aerial nuclear explosions for all weapon yields.
+	    Adjusted check of detonation altitude. Weapons now know if they explode on the ground, in the air, or in space producing different explosionFX for each.
+	    Added a smoke.png texture for those that want to change the smoke texture of explosions. Do not change the name or location of smoke.png.
+	    Added a new Category Filter in the advanced tab of the editor for NSI parts only.
+	    Made more config file and code adjustments/cleanup, adding comments to things to make things easier.
+	    Updated and changed some discriptions and updated loacalization dictionary to match.
+	    Added a craft folder to download. Copy the .craft files to your saves/"your save file"/Ships/ and place them into the VAB and SPH folders to have in your saved game or into the Ships/VAB and SPH folders for all games.
+
+version 1.7 - Added a camera over exposure effect for explosions.
+	    Made adjustments to the Diamondback II missile.
+	    Fixed craft exploding outside of the blast radius.
+	    Made more config file adjustments to all weapons.
+	    Corrected some issues in the explosion module.
+	    Made more explosionfx adjustments.
+	    Added Localization dictionary for CS.
+
+
+version 1.6 - Added Diamondback II nuclear missile.
+	    Added NSI 1-m probe core bus. (testing basic model)
+	    Added NSILV-1 rocket engine. (testing basic model)
+	    Added new subcategories and new icons.
+	    Added an explosion plugin.(testing v0.1)
+	    Made adjustments to the config files on all parts.
+	    More adjustments to "PeaceKeeper" bus.(final test run)
+	    Organized cfg files and cleaned them up.
+	    Added source to download.
+	    Added Localization dictionary for EN-US, JA, RU, SE-SE, FR, DE, NL, and ZH-CN.(more coming)
+	    NKD is no longer required as of this version.
+	    New explosionFX added.
+
+
+version 1.5 - Added B61 MOD12 Nuclear Bomb.
+	    Corrected Peacekeeper rotation and added new texture.
+	    Started creating new explosionfx that aren't so graphics heavy. (Testing phase) 	
+	    BDArmoryContinued v0.2.1.2 is required with this version.
+	    North Kerbin Dynamics is required.
+	    Added Diamondback AA nuclear missile.
+	    Added new subcategory R&D Weapons.
+
+version 1.4 - Added new texture to Little Boy bomb.
+	    Added new texture to MK84.
+	    Added W87 MK21 Thermonuclear Warhead.
+	    Added Peacekeeper.
+	    Added Custom Category.
+	    Added NSI Agency.
+	    Removed NKD weapons from mod. Harpwner is back to work on and has updated NKD.
+	    BDArmoryContinued and North Kerbin Dynamics are now both required.
+
+version 1.3 - Added miniAVC to make updates easier. Added the US MK84 bomb. Mod has now been listed on CKAN.
+
+version 1.2 - Corrected misspelling of Extension.
+
+version 1.1 - Added Little Boy and Fat Man nukes.

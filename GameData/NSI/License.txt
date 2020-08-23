@@ -1,0 +1,23 @@
+NSI uses part of the BDArmory mod's code for Kerbal Space Program that was originally developed by Paolo Encarnacion (BahamutoD) and distributed under the license CC-BY-SA 2.0. 
+
+BDArmory is now being maintained in BahamutoD's absence by Joe Korinek (Papa_Joe) and continues to be distributed under the license CC-BY-SA 2.0.
+
+
+
+Please read about the license at
+
+https://creativecommons.org/licenses/by-sa/2.0/
+
+before attempting to modify and redistribute it.
+
+NSI is developed and maintained by Vernon Perdew and is distributed under the license CC BY-SA 4.0.
+Please read about the license at https://creativecommons.org/licenses/by-sa/4.0/ before attempting to modify and redistribute it.
+
+Sonic Boom sound effect downloaded from SoundBible.com and is distibuted under the license Attribute 3 but no author is listed to credit.
+
+PEW-This mod for Kerbal Space Program is an addon for the mod BDArmory by Paolo Encarnacion (BahamutoD) and distributed under the license CC-BY-SA 2.0.
+Please read about the license at
+
+https://creativecommons.org/licenses/by-sa/2.0/
+
+before attempting to modify and redistribute it.
