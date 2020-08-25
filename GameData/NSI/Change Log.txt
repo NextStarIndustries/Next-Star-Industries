@@ -1,8 +1,8 @@
-version 2.1.1 "More Booms Update" - Fixed tech tree icon locations making it more CTT compatible.
-	       New mmpatch to add BDAc parts to Career Mode. Removed Mission Editor stuff for the time being(BDAc Weapon Manager freaks out when the category is changed).
+version 2.1.1 "More Booms Update" - Fixed the tech tree icon locations of the new military lines making it compatible with CTT.
+	       Patched BDAc parts to Career Mode and Mission Editor.
 	       More texture compression.
-	       Config file tweeks.
-	       Patched BDAc Weapon Manager to all Command Modules.
+	       Config file tweeks for many parts.
+	       Patched BDAc's Weapon Manager and AI Controller modules to all parts with the module "Command". The "Weapon Manager" and the "AI Pilot and Surface Controller" parts will no longer "have" to be equiped to your craft for weapons and various control.
 version 2.1.0 "More Booms" - Merged BDAWE into the new mod Next Star Industries "NSI" and recompiled for KSP 1.10.1
 	       More code changes.
 	       Adjustments made to planetary resources.
