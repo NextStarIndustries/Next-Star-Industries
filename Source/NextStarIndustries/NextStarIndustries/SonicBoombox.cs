@@ -2,7 +2,7 @@
 
 namespace NextStarIndustries
 {
-    internal class SonicBoombox : PartModule
+    public class SonicBoombox : PartModule
     {
         private AudioSource SBSettings;
         private double speed;

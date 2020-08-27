@@ -14,7 +14,7 @@ namespace NextStarIndustries
         readonly List<AvailablePart> rdParts = new List<AvailablePart>();
         readonly List<AvailablePart> probeParts = new List<AvailablePart>();
         readonly List<AvailablePart> engineParts = new List<AvailablePart>();
-        void Awake()
+        public void Awake()
         {
             availableParts.Clear();
             var countap = PartLoader.LoadedPartsList.Count;
