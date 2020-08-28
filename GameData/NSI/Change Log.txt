@@ -1,15 +1,18 @@
+version 2.2.0 "Blasts from the Past" - Merged old outdated mods PEW, NKD, MTW, and Future Weapons.
+	       !!REMOVE any version of NKD(North Kerbin Dynamics) installed BEFORE installing this version of NSI.!! NKD is merged into this MOD.
+	       Numerous config file tweeks.
+	       Adjusted NSI category in the advanced tab of the editors.
+	       New part module started "TDSControl(wip)" for use with the TDS ship. This will lead to complete ship builds to highly reduce part counts.
+	       Removed the Career Mode(wip) and Mission Editor(working) patches to be released as seperate MODS for those that choose to use them.
 version 2.1.1 "More Booms Update" - Fixed the tech tree icon locations of the new military lines making it compatible with CTT.
-	       Patched BDAc parts to Career Mode and Mission Editor.
 	       More texture compression.
 	       Config file tweeks for many parts.
-	       Patched BDAc's Weapon Manager and AI Controller modules to all parts with the module "Command". The "Weapon Manager" and the "AI Pilot and Surface Controller" parts will no longer "have" to be equiped to your craft for weapons and various control.
 version 2.1.0 "More Booms" - Merged BDAWE into the new mod Next Star Industries "NSI" and recompiled for KSP 1.10.1
 	       More code changes.
 	       Adjustments made to planetary resources.
-version 2.0.4 "Blasts from the Past" - "Interstellar Fuel Switch" and it's dependencies are now a required download for some parts to work.
+version 2.0.4    "Interstellar Fuel Switch" and it's dependencies are now a required download for some parts to work.
 	       Removed extra explosionfx attached to the nukes until textures are fixed.
 	       Fixed many NRE errors. Upgraded some models, their textures, and added a flag decal to them, it changes to your currently seleted mission flag for more personalization options.
-	       Mereged old outdated weapon mod PEW weapons and updated the config files.
 	       Added bdacategories to most weapon config files.
 	       Repaired broken texture links.
 	       Changes to the file stucture, this may cause saved ships to break, remove all versions of BDAWE and its weapons from saved games before updating BDAWE.
