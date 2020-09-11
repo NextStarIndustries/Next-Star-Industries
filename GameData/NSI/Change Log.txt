@@ -1,3 +1,10 @@
+version 2.3.1 "More Nukes Balancing" - Rebalancing of config files.
+	       More code clean-up.
+	       Added "Shockwave" to NSI nukes.
+	       NSIExplosionModule has 2 new settings - explosive yield and particle size. Default values are 100 and 5 respectfully.
+version 2.3.0 "More Nukes" - Merged "Carcharoth Aeronautics"
+	       More config file adjustments.
+	       More code clean-up.
 version 2.2.0 "Blasts from the Past" - Merged old outdated mods PEW, NKD, MTW, and Future Weapons.
 	       !!REMOVE any version of NKD(North Kerbin Dynamics) installed BEFORE installing this version of NSI.!! NKD is merged into this MOD.
 	       Numerous config file tweeks.
