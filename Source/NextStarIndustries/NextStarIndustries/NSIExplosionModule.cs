@@ -83,6 +83,7 @@ namespace NextStarIndustries
                 sdetonator.duration = 2f;
                 sdetonator.size = blastRadius;
                 sdetonator.detail = 5.0f;
+                ExplosionFx.CreateExplosion(position, blastPower, explSpacePath, explSoundPath, isMissile = true, caliber = 0, explosivePart = null, default);
 
                 Debug.Log("Space Explosion Activated");
             }
