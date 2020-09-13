@@ -2,6 +2,8 @@ version 2.3.1 "More Nukes Balancing" - Rebalancing of config files.
 	       More code clean-up.
 	       Added "Shockwave" to NSI nukes.
 	       NSIExplosionModule has 2 new settings - explosive yield and particle size. Default values are 100 and 5 respectfully.
+	       Added a new animated missile "GBU53".
+	       Added "NSI Resource Tank"(wip).
 version 2.3.0 "More Nukes" - Merged "Carcharoth Aeronautics"
 	       More config file adjustments.
 	       More code clean-up.
