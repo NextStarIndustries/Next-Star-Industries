@@ -1,0 +1,55 @@
+RM_Windows
+{
+	DebuggerPosition
+	{
+		x = 0
+		y = 0
+		width = 520
+		height = 354
+	}
+	SettingsPosition
+	{
+		x = 0
+		y = 0
+		width = 395
+		height = 335
+	}
+	RosterPosition
+	{
+		x = 237
+		y = 57
+		width = 800
+		height = 335
+	}
+	ContractDisputePosition
+	{
+		x = 0
+		y = 0
+		width = 700
+		height = 336
+	}
+}
+RM_Settings
+{
+	EnableHighlighting = True
+	LockSettings = False
+	ShowToolTips = True
+	SettingsToolTips = True
+	RosterToolTips = True
+	DebuggerToolTips = True
+	ContractDisputeToolTips = True
+	ShowDebugger = False
+	EnableBlizzyToolbar = False
+	VerboseLogging = False
+	AutoDebug = False
+	DebugLogPath = \Plugins\PluginData\
+	ErrorLogLength = 1000
+	SaveLogOnExit = False
+	EnableKerbalRename = True
+}
+RM_Hidden
+{
+	SourcePartColor = red
+	TargetPartColor = green
+	LifeInfoUpdatePeriod = 60
+}
