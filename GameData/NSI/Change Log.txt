@@ -1,9 +1,15 @@
-version 2.3.1 "More Nukes Balancing" - Rebalancing of config files.
+version 2.4.0 "Expanding the Field" - Rebalancing of config files.
 	       More code clean-up.
 	       Added "Shockwave" to NSI nukes.
 	       NSIExplosionModule has 2 new settings - explosive yield and particle size. Default values are 100 and 5 respectfully.
 	       Added a new animated missile "GBU53".
 	       Added "NSI Resource Tank"(wip).
+	       Recommend install of "Hanger Extender", "Vessel Mover", and "HyperEdit".
+	       Required install of "Kopernicus" for use of the "Death Star" orbiting Kerbin. Use "HyperEdit" to move it where ever you like.
+	       Required install of "Joint Reinforcement" to hold the "Star Wars" parts together.
+	       Merged "Star Wars Sets".
+	       Added numerous outdated parts.
+	       "Roster Manager" "BahaSP(no plugin)" now included in download until owners update.
 version 2.3.0 "More Nukes" - Merged "Carcharoth Aeronautics"
 	       More config file adjustments.
 	       More code clean-up.
