@@ -1,0 +1,8 @@
+Open the "Game Data" folder and then move or copy and paste all the folders inside into your KSP game data folders. Make
+sure you delete any old versions of this mod before you paste this one into your game data folder or it may cause issues.
+
+If you want Raster Prop Moniter to work in your IVA's you must download it seperately
+
+If you already have the latest Quiztech Aero pack version installed you do not need to insert the one from the MTA download into your gamedata.
+
+Enjoy and thanks for downloading! Let me know if you have and suggestions, critiques, or compliments!

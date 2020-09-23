@@ -1,0 +1,26 @@
+v1.2.0
+-KSP 1.0+ compatibility
+-Minor improvements to Critter Crawler
+-New velocity and atmosphere curves for xj-48k vector jet
+
+v1.1.1
+-updated BDAnimationModules.dll for dV and heat issues fix
+
+v1.1
+-added 1.25m 'Vector' jet engine
+-added mouse-aim spotlight
+-rescaled ILX-40
+-fixed ILX-40 collider
+-fixed ILX-40 center of mass & attach point (may break crafts)
+-fixed TRR engine causing rotation
+-fixed Mini-vector thrust gimbal
+-fixed RCS rescaleFactor typo
+-fixed mini-vector offset
+-balance tweaks
+-added Gimbal toggle button to vector jets
+-reduced mini-vector thrust
+-set prices and techtree locations
+-updated BDAnimationModules.dll
+
+v1.0
+-initial release

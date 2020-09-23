@@ -8,7 +8,8 @@ version 2.4.0 "Expanding the Field" - Rebalancing of config files.
 	       Required install of "Kopernicus" for use of the "Death Star" orbiting Kerbin. Use "HyperEdit" to move it where ever you like.
 	       Required install of "Joint Reinforcement" to hold the "Star Wars" parts together.
 	       Merged "Star Wars Sets".
-	       "Roster Manager" now included in download until owner updates.
+	       Added numerous outdated parts.
+	       "Roster Manager" "BahaSP(no plugin)" now included in download until owners update.
 version 2.3.0 "More Nukes" - Merged "Carcharoth Aeronautics"
 	       More config file adjustments.
 	       More code clean-up.
