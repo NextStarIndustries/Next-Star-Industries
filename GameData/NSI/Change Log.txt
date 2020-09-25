@@ -1,3 +1,6 @@
+version 2.4.1 "Expanding the Field" - minor updates.
+	       "Predator Drone" fixed missing models.
+	       Fixed nuclear "Shockwave" module. See configs for use.
 version 2.4.0 "Expanding the Field" - Rebalancing of config files.
 	       Numerous config file updates.
 	       More code clean-up.
@@ -5,7 +8,7 @@ version 2.4.0 "Expanding the Field" - Rebalancing of config files.
 	       NSIExplosionModule has 2 new settings - explosive yield and particle size controling the shockwave. Default values are 100 and 5 respectfully.
 	       Added a new animated missile "GBU53".
 	       Added "NSI Resource Tank"(wip).
-	       Recommend install of "Hanger Extender", "Vessel Mover", "Texture Replacer", "Firespitter", and "HyperEdit" and all their dependancies.
+	       Recommended install of "Hanger Extender", "Vessel Mover", "Texture Replacer", "Firespitter", and "HyperEdit" and all their dependancies.
 	       Required install of "Kopernicus" for use of the "Death Star(wip)" orbiting Kerbin. Use "HyperEdit" to move it where ever you like.
 	       Required install of "Kerbal Joint Reinforcement" to hold the "Star Wars" parts together.
 	       Merged "Star Wars Sets 1 & 2".
