@@ -1,1 +1,3 @@
-Simply extract all contents to your main default KSP folder. Interstellar Fuel Switch and BDAc v1.3.4 and their dependencies are required.
+Simply extract all contents to your main default KSP folder.
+ModuleManager, Interstellar Fuel Switch, TweakScale, VesselMover, TextureReplacer, HyperEdit, ToolbarControl, ClickThroughBlocker, FShangeExtender, RasterPropMonitor, Firespitter, CTT, CRP, CTTP, BahaSP, RosterManager, Kopernicus, and BDAc v1.3.4(or higher) and ALL their dependencies are required for this MOD to function fully. Most of these work in KSP 1.10.1 and I have included those that don't in the download with temp dll updates to KSP v1.10.1. Some required mods sets up this mod for the future updates.
+My plan is a minimum of 1000 parts being added for all aspects of the game.
