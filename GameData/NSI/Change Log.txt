@@ -4,6 +4,7 @@ version 2.4.2 "Expanding the Field" - minor updates.
 	       Adjustments to "TDS22".
 	       Adjustments to "Death Star", may change this to an actual part instead, I want it fully functional.
 	       Adjustments to "Predator Drone" plus fixed missing models and textures.
+	       Removed functionality of some of the Forrest Design parts for a bit due to numerous errors. I'll add the functionailty back as I fix the errors.
 version 2.4.1 "Expanding the Field" - minor updates.
 	       "Predator Drone" fixed missing models.
 	       Fixed nuclear "Shockwave" module. See configs for use.
