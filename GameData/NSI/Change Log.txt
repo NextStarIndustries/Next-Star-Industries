@@ -1,11 +1,13 @@
 version 2.4.2 "Expanding the Field" - minor updates.
-	       Delete the GameData/NSI folder before updating to v2.4.2.
+	       "Firespitter" & "BahaSP" no longer needed for certain parts. Remove from required mod list.
+	       Added "Textures Unlimited" compatibility to some parts.
+	       New more realistic rocket engine sounds.
+	       Delete the GameData/NSI folder before updating to v2.4.2 due to folder changes.
 	       Config file updates for more balancing of weapons.
 	       Removed category folder.
-	       Adjustments to "TDS22".
+	       Adjustments to "TDS22" material with reflective surface.
 	       Adjustments to "Death Star", may change this to an actual part instead, I want it fully functional.
-	       Adjustments to "Predator Drone" plus fixed missing models and textures.
-	       Removed the Forrest Design parts.
+	       Removed of the Forrest Design parts.
 version 2.4.1 "Expanding the Field" - minor updates.
 	       "Predator Drone" fixed missing models.
 	       Fixed nuclear "Shockwave" module. See configs for use.
