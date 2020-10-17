@@ -11,8 +11,8 @@ RM_Windows
 	{
 		x = 0
 		y = 0
-		width = 395
-		height = 335
+		width = 400
+		height = 378
 	}
 	RosterPosition
 	{
@@ -39,7 +39,7 @@ RM_Settings
 	DebuggerToolTips = True
 	ContractDisputeToolTips = True
 	ShowDebugger = False
-	EnableBlizzyToolbar = False
+	EnableBlizzyToolbar = True
 	VerboseLogging = False
 	AutoDebug = False
 	DebugLogPath = \Plugins\PluginData\
