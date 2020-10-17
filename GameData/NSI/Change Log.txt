@@ -1,13 +1,14 @@
 version 2.4.2 "Expanding the Field" - minor updates.
-	       Delete the GameData/NSI folder before updating to v2.4.2 due to folder changes.      
-	       "ModuleShockwave" for nuclear weapons has 3 public settings here's how the module looks in the config, 
-	//MODULE
-	//{
+	      Delete the GameData/NSI folder before updating to v2.4.2 due to folder changes.      
+	      "ModuleShockwave" for nuclear weapons has 3 public settings here's how the module looks in the config, 
+	      //MODULE
+	      //{
 		//name = ModuleShockwave
 		//explosiveYield = tntmass
 		//particleSize = defaults to 5
 		//shockPath = Path to shockwave model, defaults to NSI/MilitaryDivision/Weapons/NKD/effects/shockwave
-	//}
+	       //}
+	       Fixed texture compression errors.
 	       Fixed bullet defs.
 	       Fixed the unsupported audio file errors, converted from ogg to wav.
 	       "Firespitter" & "BahaSP" no longer needed for certain parts. Removed from required mod list.
