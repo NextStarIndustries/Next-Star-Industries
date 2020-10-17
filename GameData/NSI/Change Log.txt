@@ -7,7 +7,7 @@ version 2.4.2 "Expanding the Field" - minor updates.
 	       Delete the GameData/NSI folder before updating to v2.4.2 due to folder changes.
 	       Config file updates for more balancing of weapons.
 	       Removed category folder.
-	       Adjustments to "TDS22" added a material with a reflective surface.
+	       Adjustments to "TDS22" added a material with a reflective surface(dependent on graphic settings).
 	       Adjustments to "Death Star", may change this to an actual part instead, I want it fully functional.
 	       Removed all "Forrest Design" parts due to numerous errors.
 version 2.4.1 "Expanding the Field" - minor updates.
