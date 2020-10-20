@@ -4,7 +4,7 @@ version 2.4.2 "Expanding the Field" - minor updates.
 	      //MODULE
 	      //{
 		//name = ModuleShockwave
-		//explosiveYield = tntmass
+		//explosiveYield = same as tntmass
 		//particleSize = defaults to 5
 		//shockPath = Path to shockwave model, defaults to NSI/MilitaryDivision/Weapons/NKD/effects/shockwave
 	       //}

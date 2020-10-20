@@ -18,7 +18,7 @@ RM_Windows
 	{
 		x = 237
 		y = 57
-		width = 800
+		width = 1014
 		height = 335
 	}
 	ContractDisputePosition
@@ -39,7 +39,7 @@ RM_Settings
 	DebuggerToolTips = True
 	ContractDisputeToolTips = True
 	ShowDebugger = False
-	EnableBlizzyToolbar = True
+	EnableBlizzyToolbar = False
 	VerboseLogging = False
 	AutoDebug = False
 	DebugLogPath = \Plugins\PluginData\
