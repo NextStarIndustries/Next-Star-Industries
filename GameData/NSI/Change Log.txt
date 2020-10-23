@@ -1,3 +1,8 @@
+version 2.5.0 "Retro Style"
+	      Removed unneeded files.
+	      Minor config file adjustments for game balancing.
+	      Prep Sounds folder for update "Soundwave".
+	      Added numerous resources in prep for update "Resource Mania".
 version 2.4.2 "Expanding the Field" - minor updates.
 	      Delete the GameData/NSI folder before updating to v2.4.2 due to folder changes.      
 	      "ModuleShockwave" for nuclear weapons has 3 public settings here's how the module looks in the config, 
