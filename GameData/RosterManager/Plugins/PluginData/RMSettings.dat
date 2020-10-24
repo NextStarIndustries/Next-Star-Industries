@@ -11,14 +11,14 @@ RM_Windows
 	{
 		x = 0
 		y = 0
-		width = 395
-		height = 335
+		width = 400
+		height = 378
 	}
 	RosterPosition
 	{
 		x = 237
 		y = 57
-		width = 800
+		width = 1014
 		height = 335
 	}
 	ContractDisputePosition

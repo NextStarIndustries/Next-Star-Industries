@@ -1,3 +1,7 @@
+Version NSI 17 Oct 2020
+-Recompiled for KSP 1.10.1
+-Added NSI Kerbal Professions
+
 Version 0.2.5.1 17 Mar 2018
  - Recompiled for KSP 1.4.1
  - Fixed:  ApplicationLauncher textures no longer render correctly.  Increased image size to 128 x 128 to support Unity 2017 compression.
